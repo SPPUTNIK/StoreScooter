@@ -6,9 +6,13 @@ import './Context.css';
 
 import vid_scooter_red from '../../../assests/rolley-scooterson-fundamentally-unique-white.mp4';
 import vid_scooter_blue from '../../../assests/rolley-scooterson-an-extension-of-you-white.mp4';
+import vid_scooter_yellow from '../../../assests/Scooterson_Yellow.mp4';
 import container_two_video from '../../../assests/scooterson-video-loop.mp4';
 import vid_scooter_app from '../../../assests/index-mobile-app-prototype.mp4';
 import vid_scooter_setting from '../../../assests/scooterson-app.mp4';
+
+//img
+import img_love from '../../../assests/sharing-is-caring.jpeg';
 
 
 // IoMdSpeedometer
@@ -22,8 +26,8 @@ function Context(){
                     <p>Introducing Rolley - the e-scooter that's unlike any other.<br/>
                     Redesigned and engineered from scratch to help you ride more, easier and smarter than ever.</p>
                     <div className="buy">
-                        <a className="underline red" href="">Buy Now</a>
-                        <FiChevronRight className="icon-right red"/>
+                        <a className="underline orange" href="">Buy Now</a>
+                        <FiChevronRight className="icon-right orange"/>
                     </div>
                 </div>
                 <div className="video__scooter">
@@ -38,10 +42,10 @@ function Context(){
                     <source src={container_two_video} type="video/mp4"></source>
                 </video>
                 <h2>rolley</h2>
-                <h1 className='font-sty'>Simply Brilliant.</h1>
+                <h1 className='font-sty style-white'>Simply Brilliant.</h1>
                 <a className="white underline" href='../../assests/the_new_rolley_movie.mp4'>
                     <div className="watch-presentation">
-
+ß
                         <h2>See Scooterson in Action</h2>
                         <BsPlayCircle className='start-watching'/>
                     </div>
@@ -66,8 +70,8 @@ function Context(){
                         </p>
                     </div>
                     <div className="buy features_scooter">
-                        <a className="red underline" href="">Specs Sheet</a>
-                        <FiChevronRight className="icon-right red"/>
+                        <a className="orange underline" href="">Specs Sheet</a>
+                        <FiChevronRight className="icon-right orange"/>
                     </div>
 
                 </div>
@@ -88,8 +92,8 @@ function Context(){
                         </p>
                     </div>
                     <div className="buy features_scooter">
-                        <a className="red underline" href="">Specs Sheet</a>
-                        <FiChevronRight className="icon-right red"/>
+                        <a className="orange underline" href="">Specs Sheet</a>
+                        <FiChevronRight className="icon-right orange"/>
                     </div>
                 </div>
             </div>
@@ -118,8 +122,8 @@ function Context(){
                     <p>Transform your smartphone into the ultimate e-scooter hub with our app!<br/>
                     Access the coolest features and control your ride like never before. Enjoy a seamless, hassle-free experience.</p>
                     <div className="buy">
-                        <a className="red underline" href="">Get Yours Now</a>
-                        <FiChevronRight className="icon-right red"/>
+                        <a className="orange underline" href="">Get Yours Now</a>
+                        <FiChevronRight className="icon-right orange"/>
                     </div>
                 </div>
                 <div className="video__scooter">
@@ -144,6 +148,45 @@ function Context(){
                     <div className="buy">
                         <a className="blue underline" href="">Level Up Your Ride</a>
                         <FiChevronRight className="icon-right blue"/>
+                    </div>
+                </div>
+            </div>
+
+            <div className="buy-scooter">
+                <div className="content__scooter">
+                    <h1 className='font-sty style-darkly'>A piece of Art.</h1>
+                    <p>Scoot in style with our Award-Winning design. Experience the beauty of urban transportation with Rolley - a true work of art!<br/>
+                    Say goodbye to boring, clunky scooters and hello to this sleek and modern ride. Get ready to turn heads and make a statement.</p>
+                    <div className="buy padding-three-top-btm">
+                        <a className="underline orange" href="">Join the Celebration -<br/>
+                        Watch Us Win an Award!
+                        <BsPlayCircle className="icon-right orange padding-three-right-left"/>
+                        </a>
+                    </div>
+                    <div className="buy brdr-top padding-three-top-btm">
+                        <a className="underline orange" href="">Grab The Coolest Ride in Town Now</a>
+                        <FiChevronRight className="icon-right orange"/>
+                    </div>
+                </div>
+                <div className="video__scooter">
+                    <video  autoplay="autoplay" muted>
+                        <source src={vid_scooter_yellow} type="video/mp4"/>
+                    </video>
+                </div>
+            </div>
+
+            <div className="buy-scooter">
+                <div className="video__scooter">
+                    <img width="100%" src={img_love}></img>
+                </div>
+                <div className="content__scooter">
+                    <h1 className='font-sty style-white'>Share the Ride.</h1>
+                    <h1 className='font-sty red'>Share the Love.</h1>
+                    <p>There is no better way to show that you care other than sharing the joy of riding your Rolley+ with your friends and family.<br/>
+                    Sharing has never been easier with the Scooterson App.</p>
+                    <div className="buy">
+                        <a className="underline red" href="">Grab Yours Today</a>
+                        <FiChevronRight className="icon-right red"/>
                     </div>
                 </div>
             </div>

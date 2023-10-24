@@ -60,8 +60,13 @@
     color: #16BEDD;
 }
 
-.red{
+.orange{
     color: #fe4d06;
+}
+
+.red{
+    color: #E23943;
+
 }
 
 .bg-gray{
@@ -70,6 +75,11 @@
 
 .bg-gradians{
     background: radial-gradient(#00000096, #000000);
+}
+
+.brdr-top{
+    border: 0;
+    border-top: 1px solid whitesmoke;
 }
 
 .content__scooter a, .buy a{
@@ -214,9 +224,18 @@
     margin: 0;
 }
 
+.padding-three-top-btm{
+    padding: 3rem 0;
+}
+
+.padding-three-right-left{
+    padding: 0 3rem;
+}
+
 .padding-zero{
     padding: 0;
 }
+
 
 @media screen and (max-width:900px){
 
