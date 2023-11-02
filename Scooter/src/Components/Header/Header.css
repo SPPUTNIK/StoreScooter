@@ -18,6 +18,10 @@
     width: 100%;
 }
 
+.icon-menu {
+    display: none;
+}
+
 .logo-header{
     margin: 0;
     font-weight: bold;
@@ -31,7 +35,7 @@
 
 .list-header{
     margin: 0;
-    width: 80%;
+    width: 60%;
 }
 
 .items-header{
@@ -52,4 +56,28 @@
     color: white;
     font-weight: 100;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width:768px)
+{
+    .list-header{
+        display: none;
+    }
+
+    .logo-header {
+        letter-spacing: 14px;
+    }
+    .items-header{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .item-header {
+        padding: 0 0 2.5rem 0;
+    }
+    
+    .container-header{
+        padding: 0 1rem;
+        justify-content: center;
+        align-items: center;
+    }
 }

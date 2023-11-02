@@ -2,6 +2,7 @@ import {FiChevronRight} from 'react-icons/fi';
 import {BsPlayCircle} from 'react-icons/bs';
 import {IoMdSpeedometer} from 'react-icons/io';
 import {GiSpeedometer} from 'react-icons/gi';
+
 import './Context.css';
 
 import vid_scooter_red from '../../../assests/rolley-scooterson-fundamentally-unique-white.mp4';
@@ -45,7 +46,6 @@ function Context(){
                 <h1 className='font-sty style-white'>Simply Brilliant.</h1>
                 <a className="white underline" href='../../assests/the_new_rolley_movie.mp4'>
                     <div className="watch-presentation">
-ß
                         <h2>See Scooterson in Action</h2>
                         <BsPlayCircle className='start-watching'/>
                     </div>
@@ -180,8 +180,8 @@ function Context(){
                     <img width="100%" src={img_love}></img>
                 </div>
                 <div className="content__scooter">
-                    <h1 className='font-sty style-white'>Share the Ride.</h1>
-                    <h1 className='font-sty red'>Share the Love.</h1>
+                    <h1 className='font-sty style-white margin-zero'>Share the Ride.</h1>
+                    <h1 className='font-sty red margin-zero'>Share the Love.</h1>
                     <p>There is no better way to show that you care other than sharing the joy of riding your Rolley+ with your friends and family.<br/>
                     Sharing has never been easier with the Scooterson App.</p>
                     <div className="buy">

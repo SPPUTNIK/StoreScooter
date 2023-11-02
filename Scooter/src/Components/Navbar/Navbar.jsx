@@ -1,6 +1,12 @@
 import './Navbar.css'
 import '../Header/Header.css'
 
+import {RiMenuLine} from 'react-icons/ri';
+
+function menuClick(){
+    console.log('hello')
+}
+
 function Navbar(){
     return(
         <nav className="navbar">
@@ -24,6 +30,9 @@ function Navbar(){
                             <a href="">Buy Now</a>
                         </button>
                     </div>
+                </div>
+                <div className="icon-menu" onClick={menuClick}>
+                    <RiMenuLine/>
                 </div>
             </div>
         </nav>

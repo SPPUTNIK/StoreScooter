@@ -76,3 +76,23 @@
     color: #ff4d06;
     text-decoration: none;
 }
+
+@media screen and (max-width:768px)
+{
+    .list-items__nav{
+        display: none;
+    }
+    .logo-nav {
+        width: 80%;
+        text-align: center;
+    }
+    .container-navbar {
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-menu {
+        display: block;
+        color: rgb(61, 61, 61);
+        font-size: 1.8rem;
+    }
+}
