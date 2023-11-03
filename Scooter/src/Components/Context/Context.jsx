@@ -8,16 +8,21 @@ import './Context.css';
 import vid_scooter_red from '../../../assests/rolley-scooterson-fundamentally-unique-white.mp4';
 import vid_scooter_blue from '../../../assests/rolley-scooterson-an-extension-of-you-white.mp4';
 import vid_scooter_yellow from '../../../assests/Scooterson_Yellow.mp4';
+import vid_scooter_black from '../../../assests/rolley-carbon-2.mp4';
+
+
 import container_two_video from '../../../assests/scooterson-video-loop.mp4';
+import vid_scooter_back from '../../../assests/rolley-drive-train.mp4';
 import vid_scooter_app from '../../../assests/index-mobile-app-prototype.mp4';
 import vid_scooter_setting from '../../../assests/scooterson-app.mp4';
 
 //img
 import img_love from '../../../assests/sharing-is-caring.jpeg';
+import stone_wheel from '../../../assests/scooterson-first-stone-wheel.png';
+import scotter_colors from '../../../assests/rolley-colors-compressed.jpeg';
+import scotter_anti from '../../../assests/anti-shenneningans-tech.jpeg';
 
 
-// IoMdSpeedometer
-// GiSpeedometer
 function Context(){
     return(
         <section className="containers">
@@ -32,14 +37,14 @@ function Context(){
                     </div>
                 </div>
                 <div className="video__scooter">
-                    <video  autoplay="autoplay" muted>
+                    <video  autoPlay="autoplay" muted>
                         <source src={vid_scooter_red} type="video/mp4"/>
                     </video>
                 </div>
             </div>
 
             <div className="scooter-presentation">
-                <video autoplay="autoplay" loop muted>
+                <video autoPlay="autoplay" loop muted>
                     <source src={container_two_video} type="video/mp4"></source>
                 </video>
                 <h2>rolley</h2>
@@ -100,7 +105,7 @@ function Context(){
 
             <div className="buy-scooter">
                 <div className="video__scooter">
-                    <video  autoplay="autoplay" muted>
+                    <video  autoPlay="autoplay" muted>
                         <source src={vid_scooter_blue} type="video/mp4"/>
                     </video>
                 </div>
@@ -127,7 +132,7 @@ function Context(){
                     </div>
                 </div>
                 <div className="video__scooter">
-                    <video  autoplay="autoplay" muted loop>
+                    <video  autoPlay="autoplay" muted loop>
                         <source src={vid_scooter_app} type="video/mp4"/>
                     </video>
                 </div>
@@ -135,7 +140,7 @@ function Context(){
 
             <div className="buy-scooter padding-zero">
                 <div className="video__scooter">
-                    <video  autoplay="autoplay" muted>
+                    <video  autoPlay="autoplay" muted>
                         <source src={vid_scooter_setting} type="video/mp4"/>
                     </video>
                 </div>
@@ -169,7 +174,7 @@ function Context(){
                     </div>
                 </div>
                 <div className="video__scooter">
-                    <video  autoplay="autoplay" muted>
+                    <video  autoPlay="autoplay" muted>
                         <source src={vid_scooter_yellow} type="video/mp4"/>
                     </video>
                 </div>
@@ -188,6 +193,94 @@ function Context(){
                         <a className="underline red" href="">Grab Yours Today</a>
                         <FiChevronRight className="icon-right red"/>
                     </div>
+                </div>
+            </div>
+
+            <div className="buy-scooter">
+                <div className="content__scooter">
+                    <h1 className='font-sty style-darkly margin-zero'>Extraordinary materials.</h1>
+                    <h1 className='font-sty style-darkly margin-zero'>Exceptional Ride.</h1>
+                    <p>
+                        Introducing our top-notch e-scooter, featuring the most exquisite materials ever used on a scooter.
+                        Carbon fiber reinforced polymer for strength and durability,
+                        precision-machined aerospace-grade alloy parts, and a 3D-bent aluminium alloy chassis for lightweight strength.
+                    </p>
+                    <div className="buy">
+                        <a className="underline orange" href="">Experience it today</a>
+                        <FiChevronRight className="icon-right orange"/>
+                    </div>
+                </div>
+                <div className="video__scooter">
+                    <video  autoPlay="autoplay" muted>
+                        <source src={vid_scooter_black} type="video/mp4"/>
+                    </video>
+                </div>
+            </div>
+
+            <div className="buy-scooter bg-gray">
+                <div className="video__scooter text-center">
+                    <img width="100%" src={stone_wheel}></img>
+                </div>
+                <div className="content__scooter">
+                    <h1 className='font-sty style-white margin-zero'>Specs-less.</h1>
+                    <p>
+                        The Rolley design has been relentlessly refined to perfection,
+                        offering an unrivaled user experience that surpasses all specifications in its class. Just like the 7000-year-old stone wheel,
+                        Rolley speaks for itself, no words required.
+                    </p>
+                    <div className="buy">
+                        <a className="underline orange" href="">I’m a geek, I want specs</a>
+                        <FiChevronRight className="icon-right orange"/>
+                    </div>
+                </div>
+            </div>
+
+            <div className="buy-scooter">
+                <div className="content__scooter">
+                    <h1 className='font-sty orange margin-zero'>Eye-Catching Colors</h1>
+                    <h1 className='font-sty style-darkly margin-zero'>Not More. Not Less.</h1>
+                    <p>Say no to being invisible and match your scooter color with your fearless personality.</p>
+                    <div className="buy">
+                        <a className="underline orange" href="">Choose Your Color Now</a>
+                        <FiChevronRight className="icon-right orange"/>
+                    </div>
+                </div>
+                <div className="video__scooter text-end">
+                    <img width="100%" src={scotter_colors}></img>
+                </div>
+            </div>
+
+            <div className="buy-scooter padding-zero">
+                <div className="video__scooter">
+                    <video  autoPlay="autoplay" muted>
+                        <source src={vid_scooter_back} type="video/mp4"/>
+                    </video>
+                </div>
+                <div className="content__scooter bg-gradians">
+                    <h1 className='font-sty margin-zero orange'>Scooterson Motors</h1>
+                    <h1 className='font-sty margin-zero white'>Engineered For Adventure.</h1>
+                    <p>Conquer the steepest roads. Ride uphill with the powerful Scooterson motors, on gradients up to 25%. The best in its class.</p>
+                    <div className="buy">
+                        <a className="orange underline" href="">Upgrade Your Scoot </a>
+                        <FiChevronRight className="icon-right orange"/>
+                    </div>
+                </div>
+            </div>
+
+            <div className="buy-scooter">
+                <div className="content__scooter">
+                    <h1 className='font-sty orange margin-zero'>Peace of Mind.</h1>
+                    <h1 className='font-sty style-darkly margin-zero'>Anti-Shenanigans Tech.</h1>
+                    <p>Easily track the location of your Rolley+ wherever you go with the Scooterson
+                        App's 'Find My Scooter' feature. Plus, our anti-tampering alarm system
+                        sends real-time notifications straight to your phone whenever anyone tries to pull any shenanigans with your Rolley+.</p>
+                    <div className="buy">
+                        <a className="underline orange" href="">Buy Now</a>
+                        <FiChevronRight className="icon-right orange"/>
+                    </div>
+                </div>
+                <div className="video__scooter text-center">
+                    <img width="100%" src={scotter_anti}></img>
                 </div>
             </div>
 

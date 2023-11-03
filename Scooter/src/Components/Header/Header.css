@@ -60,6 +60,30 @@
 
 @media screen and (max-width:768px)
 {
+    .mobile-list-header{
+        background-color: #343a40fa;
+        height: 422px;
+        width: 20%;
+        padding: 1rem;
+        position: absolute;
+        top: 38px;
+        font-size: 1rem;
+        right: 43px;
+        border-radius: 5px;
+        
+    }
+    hr {
+        margin-bottom: 2.5rem;
+    }
+    .item-header a:hover,
+    .item-header a:active,
+    .item-header a:focus
+    {
+        color: #ffffff7a;
+    }
+
+    
+
     .list-header{
         display: none;
     }
@@ -69,7 +93,7 @@
     }
     .items-header{
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
     }
     .item-header {
         padding: 0 0 2.5rem 0;

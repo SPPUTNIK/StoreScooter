@@ -9,13 +9,14 @@
 .buy-scooter{
     display: flex;
     flex-direction: row;
+    width: 100%;
     max-width: 2500px;
     align-items: center;
     padding: 4rem 0;
 }
 
 .content__scooter{
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     text-align: center;
@@ -95,7 +96,7 @@
 }
 
 .video__scooter{
-    width: 60%;
+    width: 50%;
 }
 
 .video__scooter video{
@@ -235,6 +236,14 @@
     padding: 0 3rem;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.text-end{
+    text-align: end;
+}
+
 .padding-zero{
     padding: 0;
 }
@@ -270,7 +279,7 @@
 @media screen and (max-width:768px)
 {
     .content__scooter{
-        padding: 1rem;
+        padding: 3rem 0;
     }
 
     .watch-presentation{
