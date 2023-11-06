@@ -21,6 +21,19 @@ import img_love from '../../../assests/sharing-is-caring.jpeg';
 import stone_wheel from '../../../assests/scooterson-first-stone-wheel.png';
 import scotter_colors from '../../../assests/rolley-colors-compressed.jpeg';
 import scotter_anti from '../../../assests/anti-shenneningans-tech.jpeg';
+import smart_bms from '../../../assests/smart-bms-rolley-finder.png';
+
+
+//small img
+import Battery from '../../../assests/small/anti-shenneningans-tech.png';
+import Balanced from '../../../assests/small/icon-battery-display-1.png';
+import Temperature from '../../../assests/small/icon-battery-display-2.png';
+import Overdischarge from '../../../assests/small/icon-battery-display-3.png';
+import Circuit from '../../../assests/small/icon-battery-display-4.png';
+import Overcurrent from '../../../assests/small/icon-battery-display-5.png';
+import Overvoltage from '../../../assests/small/icon-battery-display-6.png';
+import Overcharge from '../../../assests/small/icon-battery-display-7.png';
+
 
 
 function Context(){
@@ -144,7 +157,7 @@ function Context(){
                         <source src={vid_scooter_setting} type="video/mp4"/>
                     </video>
                 </div>
-                <div className="content__scooter bg-gradians">
+                <div className="content__scooter bg-gradians ht">
                     <h1 className='font-sty margin-zero white'>Scooterson Display.</h1>
                     <h1 className='font-sty margin-zero blue'>Ride in Style,<br/>
                         Day and Night.</h1>
@@ -219,10 +232,10 @@ function Context(){
 
             <div className="buy-scooter bg-gray">
                 <div className="video__scooter text-center">
-                    <img width="100%" src={stone_wheel}></img>
+                    <img id="stone-img" width="100%" src={stone_wheel}></img>
                 </div>
                 <div className="content__scooter">
-                    <h1 className='font-sty style-white margin-zero'>Specs-less.</h1>
+                    <h1 className='font-sty style-darkly margin-zero'>Specs-less.</h1>
                     <p>
                         The Rolley design has been relentlessly refined to perfection,
                         offering an unrivaled user experience that surpasses all specifications in its class. Just like the 7000-year-old stone wheel,
@@ -250,13 +263,13 @@ function Context(){
                 </div>
             </div>
 
-            <div className="buy-scooter padding-zero">
+            <div className="buy-scooter padding-zero bg-gradians">
                 <div className="video__scooter">
                     <video  autoPlay="autoplay" muted>
                         <source src={vid_scooter_back} type="video/mp4"/>
                     </video>
                 </div>
-                <div className="content__scooter bg-gradians">
+                <div className="content__scooter ht_25">
                     <h1 className='font-sty margin-zero orange'>Scooterson Motors</h1>
                     <h1 className='font-sty margin-zero white'>Engineered For Adventure.</h1>
                     <p>Conquer the steepest roads. Ride uphill with the powerful Scooterson motors, on gradients up to 25%. The best in its class.</p>
@@ -283,6 +296,75 @@ function Context(){
                     <img width="100%" src={scotter_anti}></img>
                 </div>
             </div>
+
+            <div className="all">
+                <div className="grid blue-dark">
+                    <div className="video__scooter text-center">
+                        <img width="100%" src={smart_bms}></img>
+                    </div>
+                    <div className="content__scooter">
+                        <h1 className='font-sty style-white margin-zero'>Long-Range Battery</h1>
+                        <h1 className='font-sty style-white margin-zero'>with <span className='red'>Smart BMS</span></h1>
+                        <p className='white'>Experience uninterrupted freedom throughout the day without getting the low-battery anxiety
+                        syndrome with Rolley’s swappable battery system and an intelligent Smart Battery Management System.</p>
+                        <p className='white'>Our battery cells have UL1642, UL2271, UN38.3, and IEC62133 safety certifications for your peace of mind.</p>
+                        <div className="buy">
+                            <a className="underline red" href="">Experience Limitless Mobility Now</a>
+                            <FiChevronRight className="icon-right red"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="content_hr">
+                    <hr className='line'/>
+                    <p className='gray text-center'>Rolley's smart batteries are built with redundant circuits<br/>
+                    for total operational safety in mind:</p>
+                    <hr className='line'/>
+                </div>
+
+
+                <div className="flex margin-four-side">
+                    <div className="features-batairie">
+                        <div className="feature">
+                            <img width="50%" src={Battery}></img>
+                            <span className='gray fnt-size'>Battery Health Monitor</span>
+                        </div>
+                        <div className="feature">
+                            <img width="50%" src={Balanced}></img>
+                            <span className='gray fnt-size'>Balanced Charging</span>
+                        </div>
+                        <div className="feature">
+                            <img width="50%" src={Temperature}></img>
+                            <span className='gray fnt-size'>Temperature Protection</span>
+                        </div>
+                        <div className="feature">
+                            <img width="50%" src={Overdischarge}></img>
+                            <span className='gray fnt-size'>Overdischarge Protection</span>
+                        </div>
+                    </div>
+
+
+                    <div className="features-batairie">
+                        <div className="feature">
+                            <img width="50%" src={Circuit}></img>
+                            <span className='gray fnt-size'>Short-Circuit Protection</span>
+                        </div>
+                        <div className="feature">
+                            <img width="50%" src={Overcurrent}></img>
+                            <span className='gray fnt-size'>Overcurrent Protection</span>
+                        </div>
+                        <div className="feature">
+                            <img width="50%" src={Overvoltage}></img>
+                            <span className='gray fnt-size'>Overvoltage Protection</span>
+                        </div>
+                        <div className="feature">
+                            <img width="50%" src={Overcharge}></img>
+                            <span className='gray fnt-size'>Overcharge Protection</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
 
         </section>
     )
