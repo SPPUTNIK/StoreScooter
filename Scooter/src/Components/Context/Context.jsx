@@ -22,6 +22,8 @@ import stone_wheel from '../../../assests/scooterson-first-stone-wheel.png';
 import scotter_colors from '../../../assests/rolley-colors-compressed.jpeg';
 import scotter_anti from '../../../assests/anti-shenneningans-tech.jpeg';
 import smart_bms from '../../../assests/smart-bms-rolley-finder.png';
+import handheld_phone from '../../../assests/handheld-phone.png';
+
 
 
 //small img
@@ -42,7 +44,7 @@ function Context(){
             <div className="buy-scooter">
                 <div className="content__scooter">
                     <h1 className='font-sty style-white'>Ride Beyond the Ordinary.</h1>
-                    <p>Introducing Rolley - the e-scooter that's unlike any other.<br/>
+                    <p className='gray'>Introducing Rolley - the e-scooter that's unlike any other.<br/>
                     Redesigned and engineered from scratch to help you ride more, easier and smarter than ever.</p>
                     <div className="buy">
                         <a className="underline orange" href="">Buy Now</a>
@@ -78,11 +80,11 @@ function Context(){
                     <h2>rolley</h2>
                     <div className="features_scooter">
                         <IoMdSpeedometer className='icon__features'/>
-                        <p>Media Range: Up to 28 miles (45 Km)</p>
+                        <p className='gray'>Media Range: Up to 28 miles (45 Km)</p>
                     </div>
                     <div className="features_scooter">
                         <GiSpeedometer className='icon__features'/>
-                        <p>Top Speed: 28 MPH (45 KPH)<br/>
+                        <p className='gray'>Top Speed: 28 MPH (45 KPH)<br/>
                             North America: 15-20 MPH*<br/>
                             Europe: 20-25 KPH*
                         </p>
@@ -100,11 +102,11 @@ function Context(){
                     <h2>rolley +</h2>
                     <div className="features_scooter">
                         <IoMdSpeedometer className='icon__features'/>
-                        <p>Media Range: Up to 28 miles (45 Km)</p>
+                        <p className='gray'>Media Range: Up to 28 miles (45 Km)</p>
                     </div>
                     <div className="features_scooter">
                         <GiSpeedometer className='icon__features'/>
-                        <p>Top Speed: 28 MPH (45 KPH)<br/>
+                        <p className='gray'>Top Speed: 28 MPH (45 KPH)<br/>
                             North America: 15-20 MPH*<br/>
                             Europe: 20-25 KPH*
                         </p>
@@ -125,7 +127,7 @@ function Context(){
                 <div className="content__scooter">
                     <h1 className='font-sty style-darkly margin-zero'>Perfectly Balanced.</h1>
                     <h1 className='three-rem margin-zero blue'>Riding Made Easy.</h1>
-                    <p>Master riding instantly. Rolley's passive Auto-Balance design makes it incredibly easy to ride, even for those who struggle with<br/>
+                    <p className='gray'>Master riding instantly. Rolley's passive Auto-Balance design makes it incredibly easy to ride, even for those who struggle with<br/>
                     bicycles or kick-scooters. Effortlessly glide through the streets at the speed of thought, experiencing the joy of true freedom and convenience.</p>
                     <div className="buy">
                         <a className="blue underline" href="">Start Your Scooterson Journey</a>
@@ -137,7 +139,7 @@ function Context(){
             <div className="buy-scooter bg-gray">
                 <div className="content__scooter">
                     <h1 className='font-sty style-darkly margin-zero'>The Perfect Companion or Your Ride</h1>
-                    <p>Transform your smartphone into the ultimate e-scooter hub with our app!<br/>
+                    <p className='gray'>Transform your smartphone into the ultimate e-scooter hub with our app!<br/>
                     Access the coolest features and control your ride like never before. Enjoy a seamless, hassle-free experience.</p>
                     <div className="buy">
                         <a className="orange underline" href="">Get Yours Now</a>
@@ -161,7 +163,7 @@ function Context(){
                     <h1 className='font-sty margin-zero white'>Scooterson Display.</h1>
                     <h1 className='font-sty margin-zero blue'>Ride in Style,<br/>
                         Day and Night.</h1>
-                    <p>Scooterson's innovative display is engineered to provide optimal visibility. Whether under the sun or<br/>
+                    <p className='gray'>Scooterson's innovative display is engineered to provide optimal visibility. Whether under the sun or<br/>
                     beneath the stars, our light and dark modes cover them all.</p>
                     <div className="buy">
                         <a className="blue underline" href="">Level Up Your Ride</a>
@@ -173,7 +175,7 @@ function Context(){
             <div className="buy-scooter">
                 <div className="content__scooter">
                     <h1 className='font-sty style-darkly'>A piece of Art.</h1>
-                    <p>Scoot in style with our Award-Winning design. Experience the beauty of urban transportation with Rolley - a true work of art!<br/>
+                    <p className='gray'>Scoot in style with our Award-Winning design. Experience the beauty of urban transportation with Rolley - a true work of art!<br/>
                     Say goodbye to boring, clunky scooters and hello to this sleek and modern ride. Get ready to turn heads and make a statement.</p>
                     <div className="buy padding-three-top-btm">
                         <a className="underline orange" href="">Join the Celebration -<br/>
@@ -200,7 +202,7 @@ function Context(){
                 <div className="content__scooter">
                     <h1 className='font-sty style-white margin-zero'>Share the Ride.</h1>
                     <h1 className='font-sty red margin-zero'>Share the Love.</h1>
-                    <p>There is no better way to show that you care other than sharing the joy of riding your Rolley+ with your friends and family.<br/>
+                    <p className='gray'>There is no better way to show that you care other than sharing the joy of riding your Rolley+ with your friends and family.<br/>
                     Sharing has never been easier with the Scooterson App.</p>
                     <div className="buy">
                         <a className="underline red" href="">Grab Yours Today</a>
@@ -213,7 +215,7 @@ function Context(){
                 <div className="content__scooter">
                     <h1 className='font-sty style-darkly margin-zero'>Extraordinary materials.</h1>
                     <h1 className='font-sty style-darkly margin-zero'>Exceptional Ride.</h1>
-                    <p>
+                    <p className='gray'>
                         Introducing our top-notch e-scooter, featuring the most exquisite materials ever used on a scooter.
                         Carbon fiber reinforced polymer for strength and durability,
                         precision-machined aerospace-grade alloy parts, and a 3D-bent aluminium alloy chassis for lightweight strength.
@@ -236,7 +238,7 @@ function Context(){
                 </div>
                 <div className="content__scooter">
                     <h1 className='font-sty style-darkly margin-zero'>Specs-less.</h1>
-                    <p>
+                    <p className='gray'>
                         The Rolley design has been relentlessly refined to perfection,
                         offering an unrivaled user experience that surpasses all specifications in its class. Just like the 7000-year-old stone wheel,
                         Rolley speaks for itself, no words required.
@@ -252,7 +254,7 @@ function Context(){
                 <div className="content__scooter">
                     <h1 className='font-sty orange margin-zero'>Eye-Catching Colors</h1>
                     <h1 className='font-sty style-darkly margin-zero'>Not More. Not Less.</h1>
-                    <p>Say no to being invisible and match your scooter color with your fearless personality.</p>
+                    <p className='gray'>Say no to being invisible and match your scooter color with your fearless personality.</p>
                     <div className="buy">
                         <a className="underline orange" href="">Choose Your Color Now</a>
                         <FiChevronRight className="icon-right orange"/>
@@ -272,7 +274,7 @@ function Context(){
                 <div className="content__scooter ht_25">
                     <h1 className='font-sty margin-zero orange'>Scooterson Motors</h1>
                     <h1 className='font-sty margin-zero white'>Engineered For Adventure.</h1>
-                    <p>Conquer the steepest roads. Ride uphill with the powerful Scooterson motors, on gradients up to 25%. The best in its class.</p>
+                    <p className='gray'>Conquer the steepest roads. Ride uphill with the powerful Scooterson motors, on gradients up to 25%. The best in its class.</p>
                     <div className="buy">
                         <a className="orange underline" href="">Upgrade Your Scoot </a>
                         <FiChevronRight className="icon-right orange"/>
@@ -284,7 +286,7 @@ function Context(){
                 <div className="content__scooter">
                     <h1 className='font-sty orange margin-zero'>Peace of Mind.</h1>
                     <h1 className='font-sty style-darkly margin-zero'>Anti-Shenanigans Tech.</h1>
-                    <p>Easily track the location of your Rolley+ wherever you go with the Scooterson
+                    <p className='gray'>Easily track the location of your Rolley+ wherever you go with the Scooterson
                         App's 'Find My Scooter' feature. Plus, our anti-tampering alarm system
                         sends real-time notifications straight to your phone whenever anyone tries to pull any shenanigans with your Rolley+.</p>
                     <div className="buy">
@@ -365,6 +367,90 @@ function Context(){
                 </div>
             </div>
             
+            <div className="buy-scooter bluemarine brdr-zero padding-zero">
+                <div className="video__scooter text-center">
+                    <img width="100%" src={handheld_phone}></img>
+                </div>
+                <div className="content__scooter">
+                    <h1 className='font-sty margin-zero white'>Low Battery Anxiety Syndrome?</h1>
+                    <h1 className='font-sty blue-fnt margin-zero'>Heal it with Rolley.</h1>
+                    <p className='white'>
+                        With the Scooterson App, you'll always know when it's the right time to recharge Rolley’s battery. Whether you are at home or work, our app will keep you informed of your battery life. To provide unparalleled battery life and an extended riding range,
+                        the battery pack is equipped with 48 High-Power-Density battery cells, manufactured by industry leader SAMSUNG.
+                    </p>
+                    <div className="buy">
+                        <a className="underline white" href="">Experience Worry-Free Riding Now</a>
+                        <FiChevronRight className="icon-right white"/>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div className="buy-scooter padding-zero brdr-zero">
+                <div className="content__scooter blue-mftouh ht_45 brdr">
+                    <h1 className='font-sty margin-zero style-white'>Scooterson Certified</h1>
+                    <h1 className='font-sty style-white margin-zero'>Partner <span className='black'>Stores</span></h1>
+                    <p className='white'>
+                    Scooterson team provides you with all the materials, training and support needed to open your Scooterson Store,
+                    the first and only one in your home town. Partner with us and lets conquer the market together.
+                    </p>
+                    <div className="buy">
+                        <a className="underline black" href="">I'm interested</a>
+                        <FiChevronRight className="icon-right black"/>
+                    </div>
+                </div>
+                <div className="content__scooter bg-gradians-purple ht_45 brdr">
+                    <h1 className='font-sty margin-zero style-white'>Scooterson for <span className='red'>Business.</span></h1>
+                    <p className='white'>
+                    A complete solution for personal mobility perfectly tailored for your company or institutions needs in one package: Scooters,
+                    charging stations, fleet management software and apps, training, ongoing maintenance and support.
+                    </p>
+                    <div className="buy">
+                        <a className="underline white med-font" href="">For Commercial Properties</a>
+                        <FiChevronRight className="icon-right white"/>
+                    </div>
+                    <div className="buy">
+                        <a className="underline white med-font" href="">For Resorts & Hotels</a>
+                        <FiChevronRight className="icon-right white"/>
+                    </div>
+                    <div className="buy">
+                        <a className="underline white med-font" href="">For Golf Courses</a>
+                        <FiChevronRight className="icon-right white"/>
+                    </div>
+                    <div className="buy">
+                        <a className="underline white med-font" href="">For Residential Properties</a>
+                        <FiChevronRight className="icon-right white"/>
+                    </div>
+                </div>
+            </div>
+
+            <div className="buy-scooter padding-zero brdr-zero">
+                <div className="content__scooter blue-summer ht_45 brdr">
+                    <h1 className='font-sty margin-zero style-white'>Join the Revolution</h1>
+                    <h1 className='font-sty style-white margin-zero'>and be a <span className='yellow'>Scooter Wrangler.</span></h1>
+                    <p className='white'>
+                    Using Scooterson Sharing Platform you can rent our scooters to customers from your neighborhood.
+                    Scooterson team will provide you all the scooters, training and support needed. Quit your boring job and join now!
+                    </p>
+                    <div className="buy">
+                        <a className="underline yellow" href="">I'm in</a>
+                        <FiChevronRight className="icon-right yellow"/>
+                    </div>
+                </div>
+                <div className="content__scooter white-blue ht_45 brdr">
+                    <h1 className='font-sty margin-zero blue-fnt-scooter'>Scooterson for</h1>
+                    <h1 className='font-sty margin-zero style-darkly'>Residential Developments</h1>
+                    <p className='blue-fnt-scooter'>
+                    Whatever it is a condominium, a gated community, villas or any farmhouse walking from one end to another can take some time.
+                    Offer your residents a cool get around something they already love to ride - Scooters!
+                    </p>
+                    <div className="buy">
+                        <a className="underline black med-font" href="">Discover more</a>
+                        <FiChevronRight className="icon-right black"/>
+                    </div>
+                </div>
+            </div>
 
         </section>
     )
