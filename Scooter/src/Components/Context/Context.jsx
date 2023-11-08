@@ -23,7 +23,7 @@ import scotter_colors from '../../../assests/rolley-colors-compressed.jpeg';
 import scotter_anti from '../../../assests/anti-shenneningans-tech.jpeg';
 import smart_bms from '../../../assests/smart-bms-rolley-finder.png';
 import handheld_phone from '../../../assests/handheld-phone.png';
-
+import news_letter from '../../../assests/newsletter-mailbox.png';
 
 
 //small img
@@ -385,8 +385,6 @@ function Context(){
                 </div>
             </div>
 
-
-
             <div className="buy-scooter padding-zero brdr-zero">
                 <div className="content__scooter blue-mftouh ht_45 brdr">
                     <h1 className='font-sty margin-zero style-white'>Scooterson Certified</h1>
@@ -452,8 +450,26 @@ function Context(){
                 </div>
             </div>
 
+            <div className="buy-scooter brdr-zero padding-zero ht">
+                <div className="content__scooter">
+                    <h1 className='font-sty margin-zero style-darkly'>Stay Ahead of the Ride</h1>
+                    <h1 className='font-sty margin-zero style-darkly'>with Our Newsletter</h1>
+                    <p className='black'>
+                    Embark on a journey towards the future of urban mobility by subscribing to our exclusive newsletter.
+                    Get insider access to industry insights, expert tips, product updates and promotions that will revolutionize your ride.
+                    </p>
+                    <input type='email' placeholder='Email address'></input>
+                    <button className='submit-btn' type='submit' value='Subscribe'>Subscribe</button>
+                </div>
+                <div className="video__scooter text-center">
+                    <img width="100%" src={news_letter}></img>
+                </div>
+            </div>
+
+
+
         </section>
     )
 }
 
-export default Context;
+export default Context; 
