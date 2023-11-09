@@ -24,6 +24,8 @@ import scotter_anti from '../../../assests/anti-shenneningans-tech.jpeg';
 import smart_bms from '../../../assests/smart-bms-rolley-finder.png';
 import handheld_phone from '../../../assests/handheld-phone.png';
 import news_letter from '../../../assests/newsletter-mailbox.png';
+import featured from '../../../assests/featured-in-desktop-2.png';
+
 
 
 //small img
@@ -42,7 +44,7 @@ function Context(){
     return(
         <section className="containers">
             <div className="buy-scooter">
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty style-white'>Ride Beyond the Ordinary.</h1>
                     <p className='gray'>Introducing Rolley - the e-scooter that's unlike any other.<br/>
                     Redesigned and engineered from scratch to help you ride more, easier and smarter than ever.</p>
@@ -124,7 +126,7 @@ function Context(){
                         <source src={vid_scooter_blue} type="video/mp4"/>
                     </video>
                 </div>
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty style-darkly margin-zero'>Perfectly Balanced.</h1>
                     <h1 className='three-rem margin-zero blue'>Riding Made Easy.</h1>
                     <p className='gray'>Master riding instantly. Rolley's passive Auto-Balance design makes it incredibly easy to ride, even for those who struggle with<br/>
@@ -137,7 +139,7 @@ function Context(){
             </div>
 
             <div className="buy-scooter bg-gray">
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty style-darkly margin-zero'>The Perfect Companion or Your Ride</h1>
                     <p className='gray'>Transform your smartphone into the ultimate e-scooter hub with our app!<br/>
                     Access the coolest features and control your ride like never before. Enjoy a seamless, hassle-free experience.</p>
@@ -159,7 +161,7 @@ function Context(){
                         <source src={vid_scooter_setting} type="video/mp4"/>
                     </video>
                 </div>
-                <div className="content__scooter bg-gradians ht">
+                <div className="content__scooter widt-50 bg-gradians ht">
                     <h1 className='font-sty margin-zero white'>Scooterson Display.</h1>
                     <h1 className='font-sty margin-zero blue'>Ride in Style,<br/>
                         Day and Night.</h1>
@@ -173,7 +175,7 @@ function Context(){
             </div>
 
             <div className="buy-scooter">
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty style-darkly'>A piece of Art.</h1>
                     <p className='gray'>Scoot in style with our Award-Winning design. Experience the beauty of urban transportation with Rolley - a true work of art!<br/>
                     Say goodbye to boring, clunky scooters and hello to this sleek and modern ride. Get ready to turn heads and make a statement.</p>
@@ -199,7 +201,7 @@ function Context(){
                 <div className="video__scooter">
                     <img width="100%" src={img_love}></img>
                 </div>
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty style-white margin-zero'>Share the Ride.</h1>
                     <h1 className='font-sty red margin-zero'>Share the Love.</h1>
                     <p className='gray'>There is no better way to show that you care other than sharing the joy of riding your Rolley+ with your friends and family.<br/>
@@ -212,7 +214,7 @@ function Context(){
             </div>
 
             <div className="buy-scooter">
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty style-darkly margin-zero'>Extraordinary materials.</h1>
                     <h1 className='font-sty style-darkly margin-zero'>Exceptional Ride.</h1>
                     <p className='gray'>
@@ -236,7 +238,7 @@ function Context(){
                 <div className="video__scooter text-center">
                     <img id="stone-img" width="100%" src={stone_wheel}></img>
                 </div>
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty style-darkly margin-zero'>Specs-less.</h1>
                     <p className='gray'>
                         The Rolley design has been relentlessly refined to perfection,
@@ -251,7 +253,7 @@ function Context(){
             </div>
 
             <div className="buy-scooter">
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty orange margin-zero'>Eye-Catching Colors</h1>
                     <h1 className='font-sty style-darkly margin-zero'>Not More. Not Less.</h1>
                     <p className='gray'>Say no to being invisible and match your scooter color with your fearless personality.</p>
@@ -271,7 +273,7 @@ function Context(){
                         <source src={vid_scooter_back} type="video/mp4"/>
                     </video>
                 </div>
-                <div className="content__scooter ht_25">
+                <div className="content__scooter widt-50 ht_25">
                     <h1 className='font-sty margin-zero orange'>Scooterson Motors</h1>
                     <h1 className='font-sty margin-zero white'>Engineered For Adventure.</h1>
                     <p className='gray'>Conquer the steepest roads. Ride uphill with the powerful Scooterson motors, on gradients up to 25%. The best in its class.</p>
@@ -283,7 +285,7 @@ function Context(){
             </div>
 
             <div className="buy-scooter">
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty orange margin-zero'>Peace of Mind.</h1>
                     <h1 className='font-sty style-darkly margin-zero'>Anti-Shenanigans Tech.</h1>
                     <p className='gray'>Easily track the location of your Rolley+ wherever you go with the Scooterson
@@ -304,7 +306,7 @@ function Context(){
                     <div className="video__scooter text-center">
                         <img width="100%" src={smart_bms}></img>
                     </div>
-                    <div className="content__scooter">
+                    <div className="content__scooter widt-50">
                         <h1 className='font-sty style-white margin-zero'>Long-Range Battery</h1>
                         <h1 className='font-sty style-white margin-zero'>with <span className='red'>Smart BMS</span></h1>
                         <p className='white'>Experience uninterrupted freedom throughout the day without getting the low-battery anxiety
@@ -371,7 +373,7 @@ function Context(){
                 <div className="video__scooter text-center">
                     <img width="100%" src={handheld_phone}></img>
                 </div>
-                <div className="content__scooter">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty margin-zero white'>Low Battery Anxiety Syndrome?</h1>
                     <h1 className='font-sty blue-fnt margin-zero'>Heal it with Rolley.</h1>
                     <p className='white'>
@@ -386,7 +388,7 @@ function Context(){
             </div>
 
             <div className="buy-scooter padding-zero brdr-zero">
-                <div className="content__scooter blue-mftouh ht_45 brdr">
+                <div className="content__scooter widt-50 blue-mftouh ht_45 brdr">
                     <h1 className='font-sty margin-zero style-white'>Scooterson Certified</h1>
                     <h1 className='font-sty style-white margin-zero'>Partner <span className='black'>Stores</span></h1>
                     <p className='white'>
@@ -398,7 +400,7 @@ function Context(){
                         <FiChevronRight className="icon-right black"/>
                     </div>
                 </div>
-                <div className="content__scooter bg-gradians-purple ht_45 brdr">
+                <div className="content__scooter widt-50 bg-gradians-purple ht_45 brdr">
                     <h1 className='font-sty margin-zero style-white'>Scooterson for <span className='red'>Business.</span></h1>
                     <p className='white'>
                     A complete solution for personal mobility perfectly tailored for your company or institutions needs in one package: Scooters,
@@ -424,7 +426,7 @@ function Context(){
             </div>
 
             <div className="buy-scooter padding-zero brdr-zero">
-                <div className="content__scooter blue-summer ht_45 brdr">
+                <div className="content__scooter widt-50 blue-summer ht_45 brdr">
                     <h1 className='font-sty margin-zero style-white'>Join the Revolution</h1>
                     <h1 className='font-sty style-white margin-zero'>and be a <span className='yellow'>Scooter Wrangler.</span></h1>
                     <p className='white'>
@@ -436,7 +438,7 @@ function Context(){
                         <FiChevronRight className="icon-right yellow"/>
                     </div>
                 </div>
-                <div className="content__scooter white-blue ht_45 brdr">
+                <div className="content__scooter widt-50 white-blue ht_45 brdr">
                     <h1 className='font-sty margin-zero blue-fnt-scooter'>Scooterson for</h1>
                     <h1 className='font-sty margin-zero style-darkly'>Residential Developments</h1>
                     <p className='blue-fnt-scooter'>
@@ -450,8 +452,8 @@ function Context(){
                 </div>
             </div>
 
-            <div className="buy-scooter brdr-zero padding-zero ht">
-                <div className="content__scooter">
+            <div className="buy-scooter brdr-zero padding-zero ht_45">
+                <div className="content__scooter widt-50">
                     <h1 className='font-sty margin-zero style-darkly'>Stay Ahead of the Ride</h1>
                     <h1 className='font-sty margin-zero style-darkly'>with Our Newsletter</h1>
                     <p className='black'>
@@ -466,7 +468,12 @@ function Context(){
                 </div>
             </div>
 
-
+            <div className="buy-scooter padding-zero brdr-zero bg-gray">
+                <div className="content__scooter widt-full ht_25">
+                    <h1 className='font-sty margin-zero style-darkly'>In The News</h1>
+                    <img width="50%" src={featured} alt="featured"/>
+                </div>
+            </div>
 
         </section>
     )
