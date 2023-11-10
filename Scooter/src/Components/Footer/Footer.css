@@ -1,0 +1,124 @@
+.grid-footer{
+    max-width: 2500px;
+    margin: auto;
+    padding: 4rem 0;
+    background-color: #e7e7e7;
+    display: grid;
+    grid-template: 10rem 1fr 1fr 1fr 50px / repeat(4, 1fr);
+    grid-template-areas:
+        "products stores business about"
+        "app partnership business about"
+        "follow follow follow follow"
+        "follow follow follow follow"
+        "copyright copyright copyright copyright";
+    justify-items: center;
+
+    border-top: 10px solid white;
+}
+
+.ht-37{
+    height: 37rem;
+}
+
+.grid-footer h4{
+
+    margin: 0.6rem 0;
+}
+
+.grid-footer ul{
+    margin: 0;
+    padding: 0;
+}
+.grid-footer a , .grid-footer li{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 0.4rem;
+}
+
+.product__footer{
+    grid-area: products;
+}
+
+.stores__footer{
+    grid-area: stores;
+
+}
+
+.business__footer{
+    grid-area: business;
+
+}
+
+.about__footer{
+    grid-area: about;
+
+}
+
+.app__footer{
+    grid-area: app;
+
+}
+
+.partnership__footer{
+    grid-area: partnership;
+
+}
+
+.follow{
+    grid-area: follow;
+    width: 78%;
+    border-bottom: 1px solid #8382821c;
+}
+
+.icons-social {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* color: gray; */
+    padding-bottom: 3rem;
+}
+
+.copyright{
+    grid-area: copyright;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.items-footer__copyright{
+    padding-left: 5rem;
+}
+
+li.item-footer__copyright {
+    display: inline;
+    padding: 0 2rem;
+}
+
+/* general style*/
+
+.brdr-side{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.item-footer__copyright.bg-no-padd{
+    padding: .5rem;
+}
+
+.bg-blue{
+    background-color: #3398fd;
+}
+
+.bg-gray__footer{
+    background-color: #b4b7b8;
+}
+
+.white{
+    color: rgb(255, 255, 255);
+}
+
+.gray{
+    color: gray;
+}

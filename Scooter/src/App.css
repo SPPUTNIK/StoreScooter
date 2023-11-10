@@ -1,7 +1,16 @@
+@font-face{
+    font-family: "Neue Haas Unica W06 Medium";
+    src: url("https://db.onlinewebfonts.com/t/9c0afb6841117a1e2256b49b040cb768.eot");
+    src: url("https://db.onlinewebfonts.com/t/9c0afb6841117a1e2256b49b040cb768.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/9c0afb6841117a1e2256b49b040cb768.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/9c0afb6841117a1e2256b49b040cb768.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/9c0afb6841117a1e2256b49b040cb768.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/9c0afb6841117a1e2256b49b040cb768.svg#Neue Haas Unica W06 Medium")format("svg");
+}
+
 body{
   margin: 0;
-  font-family: 'sans-serif';
-  /* font-family: 'Neue Haas Unica'; */
+  font-family: "Neue Haas Unica W06 Medium";
   height: 100%;
 }
 
